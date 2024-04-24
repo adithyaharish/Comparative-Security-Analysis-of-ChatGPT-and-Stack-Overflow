@@ -1,0 +1,17 @@
+pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    white-space: pre-wrap; /* Wrap text */
+    word-wrap: break-word;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  /* If your h2 is inside a container and you want to center it in both directions */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  height: 100%; /* Ensure the container takes full height of its parent */
+}

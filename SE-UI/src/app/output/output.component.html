@@ -1,0 +1,9 @@
+<!-- src/app/pagination/pagination.component.html -->
+<div class="pagination">
+  <!-- Example of pagination buttons -->
+  <button (click)="goToPage(currentPage - 1)" [disabled]="currentPage === 1">Prev</button>
+  <!-- Current Page Indicator -->
+  <span>Page {{currentPage}}</span>
+  <!-- Placeholder for Next Page button -->
+  <button (click)="goToPage(currentPage + 1)">Next</button>
+</div>

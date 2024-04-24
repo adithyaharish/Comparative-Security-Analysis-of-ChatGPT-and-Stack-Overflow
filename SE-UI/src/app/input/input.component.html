@@ -1,0 +1,34 @@
+<!-- src/app/two-sum/two-sum.component.html -->
+
+
+<div class="containertop">
+  <div class="message-box">
+   Question ID - {{id}} : {{ backendTitle }}
+  </div>
+  <div class="message-box2">
+   <!-- <textarea [(ngModel)]="backendMessage" readonly></textarea>  -->
+   <button (click)="openDialog()">Get Question</button>
+  </div>
+</div>
+<div class="container">
+  <div class="loader" *ngIf="loading"></div>
+  <div class="problem-box">
+    <h2>Stack Overflow</h2>
+    <pre>{{leftJson}}</pre>
+  </div>
+  <div class="submission-box">
+    <h2>ChatGPT</h2>
+    <pre>{{rightJson}}</pre>  
+  </div>
+</div>
+<br>
+<div class="pagination-container">
+  <button (click)="getAnalysis()">Get Analysis</button>
+  </div>
+
+<!-- Pagination Component will be used here -->
+<div class="pagination-container">
+  <app-output [currentPage]="currentPage" (pageChanged)="onPageChanged($event)"></app-output>
+  </div>
+
+  
