@@ -1,1 +1,1 @@
-[View PDF](Empirical study on Stack Overflow vs ChatGpt on Security-related questions.pdf)
+[View PDF]([Empirical study on Stack Overflow vs ChatGpt on Security-related questions.pdf](https://github.com/adithyaharish/Comparative-Security-Analysis-of-ChatGPT-and-Stack-Overflow/blob/main/Empirical%20study%20on%20Stack%20Overflow%20vs%20ChatGpt%20on%20Security-related%20questions.pdf))
